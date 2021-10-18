@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 31
-    buildToolsVersion "30.0.3"
+//    buildToolsVersion "30.0.3"
 
     defaultConfig {
         applicationId "br.com.balbino.arcorebase"
@@ -24,16 +24,17 @@ android {
     productFlavors {
 
     }
-    
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
-    }
+//
+//    compileOptions {
+//        sourceCompatibility JavaVersion.VERSION_1_8
+//        targetCompatibility JavaVersion.VERSION_1_8
+//    }
 }
 
 dependencies {
 
     // ARCore library
+//    implementation 'com.google.ar:core:1.27.0'
     implementation 'com.google.ar:core:1.27.0'
     // Obj - a simple Wavefront OBJ file loader
     // https://github.com/javagl/Obj
